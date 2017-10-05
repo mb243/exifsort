@@ -4,7 +4,9 @@ The following script was written in bash on Ubuntu Linux and automatically sorts
 
 First, this should be run in the top-most directory of wherever your pictures are stored. If you have pictures/foldername/somepics/ and pictures/anotherfolder/morepics, run it from your pictures/ directory.
 
-There are quite a few opportunities to improve this script -- and some cautionary notes as well -- marked within the script with FIXME tags. I'm already finished sorting my images, but anyone is welcome to contribute suggestions and improvements, which I'll look into incorporating the next time I'm using this.
+This script requires ImageMagick.
+
+There are quite a few opportunities to improve this script -- and some cautionary notes as well -- marked within the script with FIXME tags. This script should be considered unmaintained, and I generally won't be updating it with any major changes, though pull requests are welcome.
 
 Usage: Copy the script into a file, editing options where appropriate, and save it. Make it executable and run it from the command line or window, from the directory where your pictures are stored. No command-line arguments. Back up your stuff first :)
 
