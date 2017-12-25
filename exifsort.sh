@@ -25,7 +25,7 @@ export USE_LMDATE=TRUE
 # See the manual page for file(1) to understand how this works. Jeff says on my system
 #invalid file extensions are ignored and this only checks capitalisation
 #
-USE_FILE_EXT=TRUE
+export USE_FILE_EXT=TRUE
 #
 # JPEG_TO_JPG: The following option is here for personal preference. If TRUE, this will
 # cause .jpg to be used instead of .jpeg as the file extension. If FALSE (or any other
