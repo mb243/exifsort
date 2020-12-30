@@ -119,7 +119,7 @@ fi
 if [[ "$1" == "doAction" && "$2" != "" ]]; then
   # Check for EXIF and process it
   echo -n ": Checking EXIF... "
-  DATETIME=`identify -verbose "$2" | grep "exif:DateTime:" | awk '{print $2" "$3}'`
+  DATETIME=`identify -format %[EXIF:DateTime] "$2"`
   if [[ "$DATETIME" == "" ]]; then
     echo "not found."
     echo $USE_LMDATE
